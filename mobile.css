@@ -1,0 +1,86 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+   
+}
+main {
+    display: block;
+}
+
+.firstcontainer{
+    margin: 2rem 4rem 1rem 1rem;
+
+}
+.firstcontainer img{
+    height: 230px;
+    width: 295px;
+    object-fit: cover;
+    border-radius: 11px 11px 0px 0px;
+    
+}
+
+.secondcontainer{
+    background-color: white;
+    padding: 0px 10px 0px 25px;
+    width: 295px;
+    height: 360px;
+    margin: -21px 2px 0px 16px;
+}
+
+.secondcontainer h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(246, 25%, 77%);;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2em 0em 0em 0em; 
+    letter-spacing: 3px; 
+     
+}
+
+.secondcontainer h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px 0px 0px 0px; 
+}
+
+#parag{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 1em 1em 2em 0em;
+    word-spacing: 2px;
+}
+
+#money{
+    font-size: 33px;
+    margin-top: 15px;
+}
+
+#moneysm{
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(246, 25%, 77%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    padding: 1em 2em 1em 2em;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: hsl(157, 35%, 19%);
+    cursor: pointer;
+}

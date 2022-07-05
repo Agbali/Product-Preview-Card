@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+   
+}
+main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.firstcontainer img{
+    border-radius: 15px 0px 0px 15px;
+}
+
+.secondcontainer{
+    background-color: white;
+    padding: 0em 1em 0em 2em;
+    width: 20%;
+    height: 430px;
+}
+
+.secondcontainer h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.secondcontainer h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(246, 25%, 77%);;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 2em 0em 1em 0em; 
+    letter-spacing: 3px;
+     
+}
+
+#parag{
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(246, 25%, 77%);
+    font-size: 14px;
+    word-spacing: 4px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 2em 0em 2em 0em;
+}
+
+.moneygrid{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+#money{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 17px
+}
+
+#moneysm{
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(246, 25%, 77%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 95%;
+    padding: 1em 2em 1em 2em;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: hsl(157, 35%, 19%);
+    cursor: pointer;
+}
+
+
+button img{
+    padding:  0px 7px 0px 0px;
+    filter: invert(50%) brightness(100000000);
+    margin-bottom: -4px;
+}
+
